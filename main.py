@@ -156,6 +156,7 @@ def main(issue, issue_author, repo_owner):
 
         # Perform move
         gameboard.push(move)
+        gameboard.transform(chess.flip_vertical())
         game.end().add_main_variation(move, comment=issue_author)
         game.headers['Result'] = gameboard.result()
 
