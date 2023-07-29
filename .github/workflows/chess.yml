@@ -41,3 +41,21 @@ jobs:
           git add .
           git commit -m "${ISSUE_TITLE} by ${ISSUE_AUTHOR}"
           git push
+
+      - name: Generate chess board img from markdown
+        run: |
+          npm i
+          node main.js
+      
+      - name: Commit changes again
+
+        run: - name: Commit and push changes
+        env:
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
+        run: |
+          git config --global user.name "Ludmila"
+          git config --global user.email "milaabl2405@gmail.com"
+          git add .
+          git commit -m "Generated the chess board preview img ♟️"
+          git push
