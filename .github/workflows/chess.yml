@@ -48,11 +48,6 @@ jobs:
           node main.js
       
       - name: Commit changes again
-
-        run: - name: Commit and push changes
-        env:
-          ISSUE_TITLE: ${{ github.event.issue.title }}
-          ISSUE_AUTHOR: ${{ github.event.issue.user.login }}
         run: |
           git config --global user.name "Ludmila"
           git config --global user.email "milaabl2405@gmail.com"
