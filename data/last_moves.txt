@@ -1,3 +1,4 @@
+e7e5: @daemon-node-byte
 d4d5: @milaabl
 f8g7: @MatthiasGN
 d2d4: @kishieel
