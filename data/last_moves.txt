@@ -1,3 +1,4 @@
+e8g8: @zadif
 a1a2: @PanagiotisKots
 h6g5: @Brandon-Huu
 g4g5: @zadif
