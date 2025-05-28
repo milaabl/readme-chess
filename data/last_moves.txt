@@ -1,3 +1,4 @@
+d1e2: @daemon-node-byte
 g4h3: @StackOverflowIsBetterThanAnyAI
 f1h3: @przemek890
 c8g4: @b8zhong
